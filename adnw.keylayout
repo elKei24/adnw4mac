@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-05-24 at 14:02 (CEST)-->
+<!--Last edited by Ukelele version 351 on 2022-05-25 at 14:33 (CEST)-->
 <keyboard group="126" id="-15581" name="Deutsch (ADNW)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -828,22 +828,22 @@
         <keyMap index="7">
             <key code="0" action="61"/>
             <key code="1" output="i"/>
-            <key code="2" output="a"/>
-            <key code="3" output="e"/>
-            <key code="4" output="s"/>
+            <key code="2" output="e"/>
+            <key code="3" output="a"/>
+            <key code="4" output="d"/>
             <key code="5" output="o"/>
             <key code="6" action="93"/>
-            <key code="7" output="ö"/>
-            <key code="8" output="ä"/>
-            <key code="9" output="p"/>
+            <key code="7" output="y"/>
+            <key code="8" output="ö"/>
+            <key code="9" output=","/>
             <key code="10" output="^"/>
-            <key code="11" output="z"/>
-            <key code="12" output="x"/>
-            <key code="13" output="v"/>
+            <key code="11" output="q"/>
+            <key code="12" output="k"/>
+            <key code="13" output="u"/>
             <key code="14" action="86"/>
-            <key code="15" output="c"/>
+            <key code="15" output="."/>
             <key code="16" action="87"/>
-            <key code="17" output="w"/>
+            <key code="17" output="ä"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -859,21 +859,21 @@
             <key code="30" output="+"/>
             <key code="31" action="90"/>
             <key code="32" action="84"/>
-            <key code="33" output="ß"/>
+            <key code="33" output="f"/>
             <key code="34" action="89"/>
-            <key code="35" output="q"/>
+            <key code="35" output="j"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="91"/>
-            <key code="38" output="n"/>
+            <key code="38" output="t"/>
             <key code="39" action="94"/>
             <key code="40" output="r"/>
-            <key code="41" output="d"/>
+            <key code="41" output="s"/>
             <key code="42" output=""/>
-            <key code="43" output=","/>
-            <key code="44" output="j"/>
+            <key code="43" output="w"/>
+            <key code="44" output="z"/>
             <key code="45" action="88"/>
-            <key code="46" output="m"/>
-            <key code="47" output="."/>
+            <key code="46" output="p"/>
+            <key code="47" output="m"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="73"/>
             <key code="50" output="&#x003C;"/>
@@ -2583,7 +2583,7 @@
             <when state="Ebene 4 und 6" next="Ebene 4 T3 Doppelakut"/>
         </action>
         <action id="61">
-            <when state="none" output="u"/>
+            <when state="none" output="h"/>
             <when state="Ebene 1 T1 Zirkumflex" output="â"/>
             <when state="Ebene 1 T2 Gravis" output="à"/>
             <when state="Ebene 1 T3 Akut" output="á"/>
@@ -2968,7 +2968,7 @@
             <when state="Ebene 6 T3 Breve" output="ŭ"/>
         </action>
         <action id="84">
-            <when state="none" output="h"/>
+            <when state="none" output="g"/>
             <when state="Ebene 1 T1 Zirkumflex" output="û"/>
             <when state="Ebene 1 T2 Gravis" output="ù"/>
             <when state="Ebene 1 T3 Akut" output="ú"/>
@@ -3003,7 +3003,7 @@
             <when state="compose d" next="compose d a"/>
         </action>
         <action id="86">
-            <when state="none" output="l"/>
+            <when state="none" output="ü"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ê"/>
             <when state="Ebene 1 T2 Gravis" output="è"/>
             <when state="Ebene 1 T3 Akut" output="é"/>
@@ -3019,7 +3019,7 @@
             <when state="compose f" output="ﬂ"/>
         </action>
         <action id="87">
-            <when state="none" output="k"/>
+            <when state="none" output="v"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ŷ"/>
             <when state="Ebene 1 T2 Gravis" output="ỳ"/>
             <when state="Ebene 1 T3 Akut" output="ý"/>
@@ -3036,7 +3036,7 @@
             <when state="Ebene 5 T1 Haken" output="ñ"/>
         </action>
         <action id="89">
-            <when state="none" output="g"/>
+            <when state="none" output="c"/>
             <when state="Ebene 1 T1 Zirkumflex" output="î"/>
             <when state="Ebene 1 T2 Gravis" output="ì"/>
             <when state="Ebene 1 T3 Akut" output="í"/>
@@ -3052,7 +3052,7 @@
             <when state="Ebene 5 T2 Spiritus asper" output="Ἡ"/>
         </action>
         <action id="90">
-            <when state="none" output="f"/>
+            <when state="none" output="l"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ô"/>
             <when state="Ebene 1 T2 Gravis" output="ò"/>
             <when state="Ebene 1 T3 Akut" output="ó"/>
@@ -3068,7 +3068,7 @@
             <when state="compose p" output="₰"/>
         </action>
         <action id="91">
-            <when state="none" output="t"/>
+            <when state="none" output="n"/>
             <when state="Ebene 1 T3 Akut" output="ĺ"/>
             <when state="Ebene 2 T2 Cedille" output="ļ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ŀ"/>
@@ -3097,11 +3097,11 @@
             <when state="Ebene 6 T2 Macron" output="ȳ"/>
         </action>
         <action id="93">
-            <when state="none" output="ü"/>
+            <when state="none" output="x"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ż"/>
         </action>
         <action id="94">
-            <when state="none" output="y"/>
+            <when state="none" output="ß"/>
             <when state="Ebene 4 T1 Punkt darüber" output="…"/>
             <when state="Ebene 4 T3 Doppelakut" output="‚"/>
         </action>
