@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-06-02 at 14:23 (CEST)-->
-<keyboard group="126" id="-12874" name="Deutsch (ADNW)" maxout="3">
+<!--Last edited by Ukelele version 351 on 2022-06-06 at 11:40 (CEST)-->
+<keyboard group="126" id="-26901" name="Deutsch (ADNW)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
@@ -272,17 +272,17 @@
             <key code="4" action="44"/>
             <key code="5" action="65"/>
             <key code="6" action="10"/>
-            <key code="7" output="Ö"/>
-            <key code="8" output="Ä"/>
-            <key code="9" output="P"/>
+            <key code="7" output="Y"/>
+            <key code="8" output="Ö"/>
+            <key code="9" output="–"/>
             <key code="10" action="57"/>
             <key code="11" action="81"/>
             <key code="12" action="50"/>
-            <key code="13" output="V"/>
+            <key code="13" output="U"/>
             <key code="14" action="79"/>
             <key code="15" action="26"/>
             <key code="16" action="37"/>
-            <key code="17" output="W"/>
+            <key code="17" output="Ä"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -296,11 +296,11 @@
             <key code="28" output="8"/>
             <key code="29" output="0"/>
             <key code="30" action="56"/>
-            <key code="31" output="F"/>
+            <key code="31" output="L"/>
             <key code="32" action="33"/>
-            <key code="33" output="ẞ"/>
+            <key code="33" output="F"/>
             <key code="34" action="31"/>
-            <key code="35" output="Q"/>
+            <key code="35" output="J"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="46"/>
             <key code="38" action="76"/>
@@ -308,11 +308,11 @@
             <key code="40" action="42"/>
             <key code="41" action="28"/>
             <key code="42" action="72"/>
-            <key code="43" output=","/>
+            <key code="43" output="W"/>
             <key code="44" action="35"/>
             <key code="45" output="B"/>
-            <key code="46" output="M"/>
-            <key code="47" output="."/>
+            <key code="46" output="P"/>
+            <key code="47" output="M"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="73"/>
             <key code="50" output="&#x003C;"/>
@@ -1218,7 +1218,7 @@
             <when state="none" next="Ebene 3 T2 Ring"/>
         </action>
         <action id="10">
-            <when state="none" output="Ü"/>
+            <when state="none" output="X"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǚ"/>
         </action>
         <action id="100">
@@ -1326,6 +1326,7 @@
             <when state="Bugfixes" output="!"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="ķ"/>
+            <when state="Ebene 2 T3 Tilde" output="ṽ"/>
             <when state="Ebene 3 T1 Drehen" output="ʞ"/>
             <when state="Ebene 5 T1 Haken" output="ƙ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="ḳ"/>
@@ -1394,6 +1395,7 @@
             <when state="Ebene 1 T3 Akut" output="ń"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ť"/>
             <when state="Ebene 2 T2 Cedille" output="ţ"/>
+            <when state="Ebene 2 T3 Tilde" output="ñ"/>
             <when state="Ebene 3 T1 Drehen" output="ʇ"/>
             <when state="Ebene 3 T3 Schrägstrich" output="ŧ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ṫ"/>
@@ -1409,7 +1411,7 @@
             <when state="Bugfixes" output="_"/>
             <when state="Ebene 1 T2 Gravis" output="ù"/>
             <when state="Ebene 1 T3 Akut" output="ú"/>
-            <when state="Ebene 2 T3 Tilde" output="ṽ"/>
+            <when state="Ebene 2 T3 Tilde" output="ũ"/>
             <when state="Ebene 3 T1 Drehen" output="ʌ"/>
             <when state="Ebene 5 T1 Haken" output="ⱱ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="ṿ"/>
@@ -2362,7 +2364,7 @@
             <when state="compose °" output="℃"/>
         </action>
         <action id="26">
-            <when state="none" output="C"/>
+            <when state="none" output="•"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Č"/>
             <!--<when state="compose" next="compose C"/>-->
         </action>
@@ -2377,7 +2379,7 @@
             <when state="Ebene 6 T2 Macron" output="Ḏ"/>
         </action>
         <action id="28">
-            <when state="none" output="D"/>
+            <when state="none" output="S"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ď"/>
         </action>
         <action id="29">
@@ -2406,7 +2408,7 @@
             <when state="Ebene 6 T3 Breve" output="Ğ"/>
         </action>
         <action id="31">
-            <when state="none" output="G"/>
+            <when state="none" output="C"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǧ"/>
             <when state="Ebene 6 T3 Breve" output="Ğ"/>
         </action>
@@ -2425,7 +2427,7 @@
             <when state="compose T" output="Þ"/>
         </action>
         <action id="33">
-            <when state="none" output="H"/>
+            <when state="none" output="G"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ȟ"/>
             <when state="Ebene 6 T3 Breve" output="Ḫ"/>
         </action>
@@ -2437,7 +2439,7 @@
             <when state="Ebene 3 T3 Schrägstrich" output="ɟ"/>
         </action>
         <action id="35">
-            <when state="none" output="J"/>
+            <when state="none" output="Z"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="J̌"/>
             <when state="compose I" output="Ĳ"/>
             <when state="compose L" output="Ǉ"/>
@@ -2453,7 +2455,7 @@
             <when state="Ebene 6 T2 Macron" output="Ḵ"/>
         </action>
         <action id="37">
-            <when state="none" output="K"/>
+            <when state="none" output="V"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
         </action>
         <action id="38">
@@ -2502,7 +2504,7 @@
             <!--<when state="compose" next="compose S"/>-->
         </action>
         <action id="44">
-            <when state="none" output="S"/>
+            <when state="none" output="D"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Š"/>
         </action>
         <action id="45">
@@ -2518,7 +2520,7 @@
             <when state="compose" next="compose T"/>
         </action>
         <action id="46">
-            <when state="none" output="T"/>
+            <when state="none" output="N"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ť"/>
         </action>
         <action id="47">
@@ -2551,7 +2553,7 @@
             <when state="none" next="Ebene 1 T1 Zirkumflex"/>
         </action>
         <action id="50">
-            <when state="none" output="X"/>
+            <when state="none" output="K"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǯ"/>
         </action>
         <action id="51">
@@ -2746,7 +2748,7 @@
             <when state="Ebene 1 T3 Akut" output="á"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ě"/>
             <when state="Ebene 2 T2 Cedille" output="ȩ"/>
-            <when state="Ebene 2 T3 Tilde" output="ẽ"/>
+            <when state="Ebene 2 T3 Tilde" output="ã"/>
             <when state="Ebene 3 T1 Drehen" output="ǝ"/>
             <when state="Ebene 3 T2 Ring" output="e̊"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ė"/>
@@ -2838,7 +2840,6 @@
             <when state="Ebene 1 T1 Zirkumflex" output="ⁿ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ň"/>
             <when state="Ebene 2 T2 Cedille" output="ņ"/>
-            <when state="Ebene 2 T3 Tilde" output="ñ"/>
             <when state="Ebene 3 T1 Drehen" output="u"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ṅ"/>
             <when state="Ebene 5 T1 Haken" output="ŋ"/>
@@ -2957,7 +2958,6 @@
             <when state="Ebene 1 T1 Zirkumflex" output="û"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǔ"/>
             <when state="Ebene 2 T2 Cedille" output="ų"/>
-            <when state="Ebene 2 T3 Tilde" output="ũ"/>
             <when state="Ebene 3 T1 Drehen" output="n"/>
             <when state="Ebene 3 T2 Ring" output="ů"/>
             <when state="Ebene 3 T3 Schrägstrich" output="ʉ"/>
@@ -2990,7 +2990,7 @@
             <when state="Ebene 1 T3 Akut" output="é"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǎ"/>
             <when state="Ebene 2 T2 Cedille" output="ą"/>
-            <when state="Ebene 2 T3 Tilde" output="ã"/>
+            <when state="Ebene 2 T3 Tilde" output="ẽ "/>
             <when state="Ebene 3 T1 Drehen" output="ɐ"/>
             <when state="Ebene 3 T2 Ring" output="å"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ȧ"/>
